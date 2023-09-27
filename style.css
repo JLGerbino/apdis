@@ -1,0 +1,48 @@
+.contenedorImagen {
+  position: relative;
+  width: 100vw; 
+  height: 450px;
+  overflow: hidden;
+  }
+  .imagenInicio {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    background-image: url("images/familia.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .imagenInicio h2 {
+    /* Estilos para el texto */
+    margin-bottom: auto; /* Ajusta el margen inferior para mover el texto hacia arriba */
+  margin-top: 0; /* Elimina el margen predeterminado del h2 */
+  }
+
+  .button-container {
+    margin-top: auto; /* Centra el contenido en la parte inferior del contenedor */
+  }
+
+  .texto{
+    color: rgb(9, 50, 130);
+    /* color: dimgray; */
+    /* width:550px; */
+    /* text-align: left; */
+  }
+  .quienes{
+    text-align: center;
+    color: rgb(9, 50, 130);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
