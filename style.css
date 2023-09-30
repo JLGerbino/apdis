@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .contenedorImagen {
   position: relative;
   width: 100vw; 
@@ -46,3 +51,22 @@
     align-items: center;
   }
   
+  .boton{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgb(9, 50, 130);
+    /*border: 0.6rem solid ;*/
+    position: relative;
+    border-radius: 23px;
+  }
+  .boton:hover {
+    background-color: white;
+    border: 2px solid rgb(9, 50, 130);
+    color: rgb(9, 50, 130);
+    text-decoration: none;    
+  }
