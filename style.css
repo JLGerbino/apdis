@@ -55,11 +55,12 @@
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     background: rgb(9, 50, 130);
+    margin-top: 10px;
     /*border: 0.6rem solid ;*/
     position: relative;
     border-radius: 23px;
@@ -70,3 +71,43 @@
     color: rgb(9, 50, 130);
     text-decoration: none;    
   }
+  .imagen{
+    margin-top: 10px;
+  }
+  .azul{
+    display: flex;
+  flex-direction: column; /* Alinear elementos verticalmente */
+  align-items: center; /* Centrar verticalmente */
+  text-align: center;
+    height: 350px;
+    width: 50px;
+    padding-bottom: 45px;
+    background-color: blue;
+  }
+  .oro{
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center;
+    border-radius: 6px;
+    height: 350px;
+    width: 50px;
+    justify-content:  center;
+    background: gold;
+  }
+  .visitar{
+    height: 350px;
+    width: 50px;
+    margin: 10px;
+    background: gray;
+  }
+/* .card-body{
+  background: url("images/working1.jpg");
+} */
+/* .oro{
+  background: url("images/fondo oro.jpg");
+} */
+/* .visitar{
+
+} */
+
