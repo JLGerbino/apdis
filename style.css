@@ -74,10 +74,24 @@
   .imagen{
     margin-top: 10px;
   }
-  .azul{
+ .divLogoPie{
+  height: 150px;
+  width: 150px;
+
+ }
+
+  .logoPie{
+    height: 100px;
+    width: 100px;
+  }
+  .logoPie:hover{
+    height: 120px;
+    width: 120px;
+  }
+  /* .azul{
     display: flex;
-  flex-direction: column; /* Alinear elementos verticalmente */
-  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center;
     height: 350px;
     width: 50px;
@@ -86,8 +100,8 @@
   }
   .oro{
     display: flex;
-    flex-direction: column; /* Alinear elementos verticalmente */
-    align-items: center; /* Centrar verticalmente */
+    flex-direction: column; 
+    align-items: center;
     text-align: center;
     border-radius: 6px;
     height: 350px;
@@ -100,7 +114,7 @@
     width: 50px;
     margin: 10px;
     background: gray;
-  }
+  } */
 /* .card-body{
   background: url("images/working1.jpg");
 } */
