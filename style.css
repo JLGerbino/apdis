@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.body{
+  background-color: rgb(243, 243, 243);
+}
+.barra.navbar{
+  background-color:rgb(166, 197, 247) !important;
+}
 .contenedorImagen {
   position: relative;
   width: 100vw; 
@@ -25,24 +31,20 @@
   }
   
   
-  .imagenInicio h2 {
-    /* Estilos para el texto */
-    margin-bottom: auto; /* Ajusta el margen inferior para mover el texto hacia arriba */
-  margin-top: 0; /* Elimina el margen predeterminado del h2 */
-  }
-/* .contacto{
-  margin-bottom: 20px;
-} */
-   .button-container {
-    margin-top: 20px; /* Centra el contenido en la parte inferior del contenedor */
+  .imagenInicio h2 {    
+  margin-bottom: auto; 
+  margin-top: 0;
   }
 
-  .texto{
-    /* color: rgb(9, 50, 130); */
-    color: white;
-    /* width:550px; */
-    /* text-align: left; */
+  .button-container {
+    margin-top: 20px;
   }
+
+  .texto{    
+    color: rgb(9, 50, 130);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.541);       
+  }
+
   .quienes{
     text-align: center;
     color: rgb(9, 50, 130);
@@ -76,6 +78,7 @@
   .imagen{
     margin-top: 10px;
   }
+    
  .divLogoPie{
   height: 150px;
   width: 150px;
@@ -92,10 +95,13 @@
     width: 120px;
   }
   
-.pie{
+/* .pie{
   background-color:rgb(243, 243,243)
+} */
+.pie{
+  background-color:rgb(166, 197, 247);
+  color: #fff;
 }
-
 .somos{
   color: rgb(9, 50, 130);
 }
@@ -109,25 +115,25 @@
   margin: 0 auto; /* Centra horizontalmente el carrusel */
 }
 
-#carouselExampleFade .carousel-inner {
-  max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
-  max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
-  margin: 0 auto; /* Centra horizontalmente el carrusel */
-}
+/* #carouselExampleFade .carousel-inner {
+  max-width: 400px; 
+  max-height: 600px; 
+  margin: 0 auto;
+} */
 
 
-#carouselExampleCaptions .carousel-inner {
-  max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
-  max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
-  margin: 0 auto; /* Centra horizontalmente el carrusel */
-}
+/* #carouselExampleCaptions .carousel-inner {
+  max-width: 400px; 
+  max-height: 600px; 
+  margin: 0 auto;
+} */
 
-#carouselExampleSlidesOnly .carousel-inner {
-  max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
-  max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
-  margin: 0 auto; /* Centra horizontalmente el carrusel */
-}
-/* Estilos para las flechas del carrusel */
+/* #carouselExampleSlidesOnly .carousel-inner {
+  max-width: 400px;
+  max-height: 600px;
+  margin: 0 auto; 
+} */
+
 .carousel-control-prev
 .carousel-control-next {
   background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
