@@ -16,7 +16,7 @@
     background-image: url("images/familia.jpg");
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: rgb(9, 50, 130);
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -30,14 +30,16 @@
     margin-bottom: auto; /* Ajusta el margen inferior para mover el texto hacia arriba */
   margin-top: 0; /* Elimina el margen predeterminado del h2 */
   }
-
-  .button-container {
-    margin-top: auto; /* Centra el contenido en la parte inferior del contenedor */
+/* .contacto{
+  margin-bottom: 20px;
+} */
+   .button-container {
+    margin-top: 20px; /* Centra el contenido en la parte inferior del contenedor */
   }
 
   .texto{
-    color: rgb(9, 50, 130);
-    /* color: dimgray; */
+    /* color: rgb(9, 50, 130); */
+    color: white;
     /* width:550px; */
     /* text-align: left; */
   }
@@ -81,6 +83,7 @@
  }
 
   .logoPie{
+    margin-top: 20px;
     height: 100px;
     width: 100px;
   }
@@ -88,40 +91,94 @@
     height: 120px;
     width: 120px;
   }
-  /* .azul{
-    display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  text-align: center;
-    height: 350px;
-    width: 50px;
-    padding-bottom: 45px;
-    background-color: blue;
-  }
-  .oro{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    text-align: center;
-    border-radius: 6px;
-    height: 350px;
-    width: 50px;
-    justify-content:  center;
-    background: gold;
-  }
-  .visitar{
-    height: 350px;
-    width: 50px;
-    margin: 10px;
-    background: gray;
-  } */
-/* .card-body{
-  background: url("images/working1.jpg");
-} */
-/* .oro{
-  background: url("images/fondo oro.jpg");
-} */
-/* .visitar{
+  
+.pie{
+  background-color:rgb(243, 243,243)
+}
 
+.somos{
+  color: rgb(9, 50, 130);
+}
+
+
+
+
+#carouselExampleControls .carousel-inner {
+  max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+  max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
+  margin: 0 auto; /* Centra horizontalmente el carrusel */
+}
+
+#carouselExampleFade .carousel-inner {
+  max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+  max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
+  margin: 0 auto; /* Centra horizontalmente el carrusel */
+}
+
+
+#carouselExampleCaptions .carousel-inner {
+  max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+  max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
+  margin: 0 auto; /* Centra horizontalmente el carrusel */
+}
+
+#carouselExampleSlidesOnly .carousel-inner {
+  max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+  max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
+  margin: 0 auto; /* Centra horizontalmente el carrusel */
+}
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  border-radius: 50%; /* Borde redondeado */
+  width: 30px; /* Ancho de las flechas (ajusta según sea necesario) */
+  height: 30px; /* Altura de las flechas (ajusta según sea necesario) */
+  line-height: 30px; /* Centra verticalmente el ícono de la flecha */
+  top: 50%; /* Posiciona verticalmente en el centro */
+  transform: translateY(-50%); /* Alinea verticalmente en el centro */
+  font-size: 18px; /* Tamaño del ícono (ajusta según sea necesario) */
+  color: black; /* Color del ícono */
+  opacity: 0.7; /* Opacidad inicial (puedes ajustar esto) */
+}
+
+/* Estilos para los íconos de las flechas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 18px; /* Tamaño del ícono (ajusta según sea necesario) */
+  color: black; /* Color del ícono */
+}
+
+
+
+
+/* #carouselExampleCaptions .carousel-inner {
+  max-height: 800px; /* Ajusta la altura como desees */
+  /* max-width: 80%;
+
+} */ 
+
+
+/* @media (max-width: 768px) {
+  .imagenInicio {
+    /* background-image: ; */
+    /* background-size: contain; */
+    
+  /* }
+} */
+
+/* Pantallas grandes (más de 768px de ancho) */
+/* @media (min-width: 768px) {
+  .imagenInicio {
+    background-size: cover;
+  }
+} */
+
+/* Pantallas pequeñas (menos de 768px de ancho) */
+/* @media (max-width: 768px) {
+  .imagenInicio {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 } */
 

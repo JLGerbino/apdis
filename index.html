@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#cartillas">Cartillas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#informacion">Informacion importante</a>
                   </li>
                 </ul>
               </div>
@@ -60,7 +60,7 @@
             <h4>En APDIS trabajamos día a día para brindar <br>
                la mejor atencion a todos nuestros afiliados.<br>
                Si tenés consultas sobre tu cobertura, no dudes en <br>
-               comunicate con Alicia Marinelli.
+               comunicarte con Alicia Marinelli.
             </h4>             
           </div><br>
           <div class="button-container">
@@ -82,8 +82,8 @@
 
           <div class="container">
             <div class="row">              
-              <div class="col-lg-6 d-none d-lg-block">
-                <img src="images/oficina.avif" alt="oficina" width="100%" height="400px">
+              <div class="col-lg-6 d-none d-lg-block img-fluid">
+                <img src="images/oficina.jpg" alt="oficina" width="100%" height="350px">
               </div>              
               <div class="col-lg-6 col-sm-12">
                 <div class="d-flex align-items-center h-100">                  
@@ -93,61 +93,81 @@
                 </div>
               </div>              
               <div class="col-sm-12 d-lg-none">
-                <img src="images/oficina.avif" alt="oficina" width="100%" height="550px">
+                <img src="images/oficina.jpg" alt="oficina" width="100%" height="250px">
               </div>
             </div>
           </div> 
           </div> 
           <br>
           <div class="container text-center">
-            <h5>
+            <h5 class="somos">
             APDIS pretende ser más que una obra social, somos una gran familia en la que todos colaboramos mutuamente para tener una adecuada cobertura en nuestras necesidades del día a día, pero al mismo tiempo una atención especial cuando la gravedad del caso lo requiere donde redoblamos los esfuerzos para garantizar una cobertura satisfactoria desde todo punto de vista. En estos casos todo el staff, tanto directivo como el personal de gestión, se pone a disposición del afiliado y su familia para darle contención y una atención personalizada y altamente especializada.
           </h5>
           </div> 
-<br><br>
-         
-<!-- <a name="cartillas"></a>
-<div class="container text-center quienes" >
-  <h1
-        data-aos="fade-left"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
-      >
-        Descarga nuestras cartillas
-      </h1>
-    </div>
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xl-4 col-md-6 col-sm-12 azul">            
-            <div  class="button-container">
-              <img src="images/azul.png" alt="credencial">
-              <br><br>
-              <a href="documents/GALENO_AZUL_G.pdf" download="GALENO_AZUL_G.pdf" class="boton">Plan Azul</a>
-            </div>
-          </div>
           <br><br>
-          <div class="col-xl-4 col-md-6 col-sm-12 oro"> 
-            <div class="button-container"></div>          
-              <img src="images/oro.png" alt="credencial">
-              <br><br>           
-              <a href="documents/galeno-oro2.pdf" download="GALENO_AZUL_G.pdf" class="boton">Plan Oro</a>
-              <br><br>
-              <a href="documents/GALENO-ORO_Rosario_Oro.pdf" download="GALENO_AZUL_G.pdf" class="boton">Plan Oro Rosario</a>
+
+          <a name="informacion"></a>
+          <div class="container text-center quienes" >
+            <h1
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  Información importante
+                </h1>
+              </div>
+          <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active tamImagen">
+              <img
+                src="images/turnos-web.jpg"
+                height="600px"                
+                class="d-block w-100 img-fluid"
+                alt="Rack"
+              />
             </div>
-            <br><br>
-            <div class="col-xl-4 col-md-6 col-sm-12 visitar ">            
-            <div class="button-container">              
-              <img src="images/azul.png" alt="credencial">
-              <br><br>
-              <a href="documents/visitar.pdf" download="visitar.pdf" class="boton">Plan Visitar</a>
+            <div class="carousel-item tamImagen">
+              <img
+                src="images/infografiacancermama-web.jpg"
+                height="600x"               
+                class="d-block w-100 img-fluid"
+                alt="Escritorio"
+              />
+            </div>
+            <div class="carousel-item tamImagen">
+              <img
+                src="images/aborto-portada.jpg"
+                height="600x"                
+                class="d-block w-100 img-fluid"
+                alt="Minimal"
+              />
             </div>
           </div>
-          </div>
-          <br><br>
-          
-        
-      
- -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>        
+        </div>   
+        <br><br>   
+       
  <a name="cartillas"></a>
 <div class="container text-center quienes">
   <h1
@@ -240,7 +260,7 @@
 </div>
 <br><br>
     </main>
-<footer>
+<footer class="pie">
   <div class="container text-center divLogoPie">
    <a href="#navbar"><img src="images/logo-apdis.png" alt="logo" class="logoPie"></a>   
   </div>
@@ -277,9 +297,10 @@
     </main> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
     <script>
       AOS.init();
     </script>
+    
   </body>
 </html>
